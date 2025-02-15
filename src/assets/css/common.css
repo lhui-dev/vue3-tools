@@ -1,0 +1,87 @@
+/* common.css 通用css配置 */
+
+/* 框架变量 */
+.layout-class {
+  /* 头部宽度 */
+  --header-height: 50px;
+  /* 侧边栏宽度 */
+  --sidebar-width: 170px;
+  --sidebar-hide-width: 54px;
+  /* Tab高度 */
+  --tab-height: 40px;
+  /* 面包屑高度 */
+  --bread-crumb-height: 30px;
+  /* tab高度 */
+  --tab-height-small: 30px;
+  --tab-height-medium: 50px;
+  --tab-height-large: 100px;
+  /* tab外边距 */
+  --tab-margin-small: 30px;
+  --tab-margin-medium: 50px;
+  --tab-margin-large: 100px;
+
+  --primary-color: #1A5EFF;
+  --el-color-primary: #1A5EFF;
+
+  /* 背景颜色 */
+  --background-color-1: #f5f7fa;
+  --background-color-2: #1f1f8f;
+  --background-color-3: #f33709;
+  --background-color-4: #e8bd0e;
+  --background-color-5: #1f070c;
+  --background-color-6: #04c6f6;
+  --background-color-7: #07f607;
+  --background-color-8: #600ae1;
+  --background-color-9: #8b10de;
+}
+
+/* 头部变量 */
+.header-class {
+  /* 头部背景颜色 */
+  --bg-color-write: #ffffff;
+  /* 头部底部边框颜色 */
+  --border-bottom-color: #eeeeee;
+}
+
+/* 左侧导航栏变量 */
+.sidebar-class {
+  /* 导航栏背景颜色 */
+  --side-bg-color: #ffffff;
+  --side-bg-hover: #ffffff;
+  --side-bg-active: #1A5EFF;
+  /* 文本颜色 */
+  --side-font-color: #666666;
+  --side-active-font-color: #1A5EFF;
+  /* 文本大小 */
+  --side-font-side: 14px;
+  --side-sub-font-size: 12px;
+}
+
+/* flex布局 */
+.m-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.m-flex-1 {
+  flex: 1;
+}
+
+.m-transparent-gradient-background {
+  background: linear-gradient(rgba(255, 0, 0, 0), rgb(193, 187, 187), rgba(255, 0, 0, 0));
+}
+
+:root {
+  --m-margin-small: 5px;
+  --m-margin-medium: 10px;
+  --m-margin-large: 15px;
+}
+
+
